@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin {
+  margin: 0 !important;
+}
+.wrapper {
+	background: #26a69a;
+}
+
+.wrapper img {
+	width: 140px;
+}
+
+.btngame {
+	margin: 3px 0;
+}
+
+.textrad {
+	color: #f44336;
+}
+
+.box-like {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.box-like-h{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0;
+}
