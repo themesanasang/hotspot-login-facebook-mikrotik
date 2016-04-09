@@ -3,26 +3,26 @@
     	$linkloginonly=$_GET['actionlike'];
     	$linkorig = $_GET['dst'];
     }else{
-    	$mac=$_POST['mac'];
-	    $ip=$_POST['ip'];
-	    $username=$_POST['username'];
-	    $linklogin=$_POST['link-login'];
-	    $linkorig=$_POST['link-orig'];
-	    $error=$_POST['error'];
-	    $trial=$_POST['trial'];
-	    $loginby=$_POST['login-by'];
-	    $chapid=$_POST['chap-id'];
-	    $chapchallenge=$_POST['chap-challenge'];
-	    $linkloginonly=$_POST['link-login-only'];
-	    $linkorigesc=$_POST['link-orig-esc'];
-	    $macesc=$_POST['mac-esc'];
-	    $identity=$_POST['identity'];
-	    $bytesinnice=$_POST['bytes-in-nice'];
-	    $bytesoutnice=$_POST['bytes-out-nice'];
-	    $sessiontimeleft=$_POST['session-time-left'];
-	    $uptime=$_POST['uptime'];
-	    $refreshtimeout=$_POST['refresh-timeout'];   
-	    $linkstatus=$_POST['link-status'];  
+    	$mac = ((isset($_POST['mac']))?$_POST['mac']:'');
+	    $ip = ((isset($_POST['ip']))?$_POST['ip']:'');
+	    $username = ((isset($_POST['username']))?$_POST['username']:'');
+	    $linklogin = ((isset($_POST['link-login']))?$_POST['link-login']:'');
+	    $linkorig = ((isset($_POST['link-orig']))?$_POST['link-orig']:'');
+	    $error = ((isset($_POST['error']))?$_POST['error']:'');
+	    $trial = ((isset($_POST['trial']))?$_POST['trial']:'');
+	    $loginby = ((isset($_POST['login-by']))?$_POST['login-by']:'');
+	    $chapid = ((isset($_POST['chap-id']))?$_POST['chap-id']:'');
+	    $chapchallenge = ((isset($_POST['chap-challenge']))?$_POST['chap-challenge']:'');
+	    $linkloginonly = ((isset($_POST['link-login-only']))?$_POST['link-login-only']:'');
+	    $linkorigesc = ((isset($_POST['link-orig-esc']))?$_POST['link-orig-esc']:'');
+	    $macesc = ((isset($_POST['mac-esc']))?$_POST['mac-esc']:'');
+	    $identity = ((isset($_POST['identity']))?$_POST['identity']:'');
+	    $bytesinnice = ((isset($_POST['bytes-in-nice']))?$_POST['bytes-in-nice']:'');
+	    $bytesoutnice = ((isset($_POST['bytes-out-nice']))?$_POST['bytes-out-nice']:'');
+	    $sessiontimeleft = ((isset($_POST['session-time-left']))?$_POST['session-time-left']:'');
+	    $uptime = ((isset($_POST['uptime']))?$_POST['uptime']:'');
+	    $refreshtimeout = ((isset($_POST['refresh-timeout']))?$_POST['refresh-timeout']:'');  
+	    $linkstatus = ((isset($_POST['link-status']))?$_POST['link-status']:''); 
     }
 ?>
 
